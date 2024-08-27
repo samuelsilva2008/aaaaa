@@ -1,0 +1,70 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /* Estilo geral */
+    body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #ebecec;
+    }
+    /* Cabeçalho */
+    header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    header h1 {
+    font-size: 2.5em;
+    color: #21b8b8;
+    }
+    header p {
+    font-size: 1.2em;
+    color: #af1515;
+    }
+    /* Seções */
+    section {
+    margin-bottom: 20px;
+    color: #531d1d86;
+    }
+    /* Rodapé */
+    
+    h2 {
+    font-size: 1.8em;
+    color: #d35555;
+    margin-bottom: 10px;
+    }
+    ul {
+    list-style-type: none;
+    }
+    li {
+    margin-bottom: 10px;
+    }
+    strong {
+    color: hsl(0, 74%, 41%);
+    }
+    em {
+        color: #55555586;
+        }
+        /* Rodapé */
+    footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #8a1b1b;
+    }
+   /* Responsividade */
+@media (max-width: 768px) {
+    body {
+    padding: 10px;
+    
+    }
+    header h1 {
+    font-size: 2em;
+    }
+    h2 {
+    font-size: 1.5em;
+    }
+    }
